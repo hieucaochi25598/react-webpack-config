@@ -1,0 +1,4 @@
+node_modules/*
+dist/*
+webpack.local.js
+webpack.prod.js
