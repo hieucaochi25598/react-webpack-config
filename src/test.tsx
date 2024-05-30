@@ -5,6 +5,8 @@ const TestComponent = () => {
   const [hieu, setHieu] = useState("hieu");
   const [cao, setCao] = useState("cao");
   const [cao1, setCao1] = useState("cao");
+  const [cao2, setCao2] = useState("cao");
+
   useEffect(() => {
     if (count) {
       console.log(count);
