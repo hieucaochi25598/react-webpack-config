@@ -6,7 +6,8 @@
     "start": "webpack serve --config webpack.local.js",
     "build": "webpack --config webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint \"src/**/*.{js,ts,tsx}\""
+    "lint": "eslint \"src/**/*.{js,ts,tsx}\"",
+    "prepare": "husky"
   },
   "husky": {
     "hooks": {

@@ -6,7 +6,7 @@ const TestComponent = () => {
   const [cao, setCao] = useState("cao");
   const [cao1, setCao1] = useState("cao");
   const [cao2, setCao2] = useState("cao");
-
+  const [cao3, setCao3] = useState("cao");
   useEffect(() => {
     if (count) {
       console.log(count);
