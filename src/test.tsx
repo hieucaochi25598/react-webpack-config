@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 const TestComponent = () => {
   const [count, setCount] = useState(1);
   const [hieu, setHieu] = useState("hieu");
-  
+  const [cao, setCao] = useState("cao");
+
   useEffect(() => {
     if (count) {
       console.log(count);
